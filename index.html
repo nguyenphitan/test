@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="./stylePageOne.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="header__container">
+            <!-- logo -->
+            <div class="logo">
+                <img src="./images/pageOneImages/logo-svg.svg" alt="logo">
+            </div>
+
+            <!-- nav-list -->
+            <div class="nav__list">
+                <div class="list__item">HÀNG MỚI</div>
+                <div class="list__item">SẢN PHẨM</div>
+                <div class="list__item">ÁO THUN "NIỀM VUI THIẾT YẾU"</div>
+                <div class="list__item list__item4">SALE LẠC QUAN</div>
+                <div class="list__item">SHOWROOM</div>
+            </div>
+
+            <!-- input -->
+            <div class="input__search">
+                <div class="input__content">
+                    <input class="input__box" type="text" placeholder="Tìm kiếm">
+                    <i class="fal fa-search"></i>
+                </div>
+            </div>
+
+            <!-- cart -->
+            <div class="cart">
+                <i class="fal fa-user-alt"></i>
+                <i class="fal fa-shopping-bag"></i>
+            </div>
+
+            <!-- bar icon -->
+            <div class="bar__icon">
+                <div class="bar__item">
+                    <i class="far fa-bars"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nav-overlay -->
+        <div class="nav__overlay">
+            <div class="nav__overlay__content">
+                <!-- nav top -->
+                <div class="nav__content__top">
+                    <!-- menu -->
+                    <div class="nav__overlay__menu">
+                        <p>Menu</p>
+                        <i class="fas fa-chevron-left"></i>
+                    </div>
+                    <!-- list -->
+                    <div class="nav__overlay__list">
+                        <div class="nav__item item1">Hàng Mới</div>
+                        <div class="nav__item item2">
+                            Sản Phẩm
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                        <div class="nav__item item3">Áo Thun "Niềm Vui Thiết Yếu"</div>
+                        <div class="nav__item item4">Sale Lạc Quan</div>
+                        <div class="nav__item item5">Showroom</div>
+                    </div>
+                </div>
+
+                <!-- nav-footer -->
+                <div class="nav__overlay__footer">
+                    <div class="top">
+                        <div class="top__left">
+                            <i class="fal fa-user-alt"></i>
+                            TÀI KHOẢN CỦA TÔI
+                        </div>
+                        <div class="top__right">
+                            MEMBERSHIP
+                        </div>
+                    </div>
+
+                    <div class="bottom">
+                        <p>
+                            Miễn phí giao hàng với hoá đơn 300.000 đồng.
+                            Thời gian đổi trả sản phẩm lên đến 30 ngày.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+
+    </div>
+
+    <!-- Slider -->
+    <div class="home__slider">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="./images/pageOneImages/bannerok_825bfda50c95486f905292da2335e0de.jpg" alt="First slide" >
+                <img class="d-block w-100 mobile__img__slider" src="./images/pageOneImages/juno-hnoss-kv-tshirt-_doc__378c899193af45fcb29dffbc51816267.jpg" alt="Second slide" >
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./images/pageOneImages/kv-sale-ngan-lac-quan-1920x870_8f4fa2cd38584411bfcee2b43322e8ad.jpg" alt="Second slide" >
+                <img class="d-block w-100 mobile__img__slider" src="./images/pageOneImages/kv-sale-ngan-lac-quan-700x1010-2_1_920b979f615144d5ae9151aaf5e85ee6.jpg" alt="Second slide" >
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span id="control__left" aria-hidden="true">
+                <i class="fal fa-chevron-left"></i>
+              </span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span id="control__right" aria-hidden="true">
+                <i class="fal fa-chevron-right"></i>
+              </span>
+            </a>
+          </div>
+    </div>
+
+
+
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./appPageOne.js"></script>
+</body>
+</html>
