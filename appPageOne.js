@@ -1,3 +1,5 @@
+// body
+
 // Header
 const header = document.querySelector('.header');
 let rect_header = header.getBoundingClientRect();
@@ -94,7 +96,24 @@ overlay.onclick = function() {
 
 
 
+// Container_content
+// section1
+// card
+// choose color
 
 
+// footer
+const hotlineExtend = document.querySelector('.hotline__extend');
+const hotlineClick = document.querySelector('.hotline__extend__click');
+const hotlineOverlay = document.querySelector('.hotline__overlay');
+const closeHotlineOverlay = document.querySelector('.hotline__overlay .fa-sort-up');
+hotlineClick.onclick = () => {
+    hotlineOverlay.style.display = 'block';
+    hotlineExtend.style.display = 'none';
+}
 
+closeHotlineOverlay.onclick = () => {
+    hotlineOverlay.style.display = 'none';
+    hotlineExtend.style.display = 'block';
+}
 
